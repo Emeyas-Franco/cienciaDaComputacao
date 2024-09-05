@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void exemploFuncao() {
-    int contador = 0; // Variável estática
+    static int contador = 0; // Variável estática
     contador++;
     printf("Contador: %d\n", contador);
 }
