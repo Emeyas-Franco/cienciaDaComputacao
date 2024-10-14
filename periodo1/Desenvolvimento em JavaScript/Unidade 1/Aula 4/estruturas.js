@@ -34,3 +34,5 @@ const diaMes = () => new
     Date().getDate();
 
 console.log(diaMes())
+
+console.log(listCompra[1])

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas condicionais e repetição</title>
+</head>
+<body>
+    <script>
+        for (let count = 0; count < 2; count++) {
+            let peso =  parseFloat(prompt('Informe seu peso: '));
+            
+            if (peso <= 52.1) {
+                alert('Você é Peso-Palha');
+            }
+            if (peso >= 52.2 && peso <= 56.7) {
+                alert('Você é Peso-Mosca');
+            } 
+            if (peso >= 56.8 && peso <= 61.2) {
+                alert('Você é Peso-Galo');
+            }
+            if (peso >= 61.3 && peso <= 65.7) {
+                alert('Você é Peso-Pena');
+            }
+            if (peso >= 65.8 && peso <= 70.3) {
+                alert('Você é Peso-Leve');
+            }
+            if (peso >= 70.4 && peso <= 77.1) {
+                alert('Você é Peso Meio-Médio');
+            }
+            if (peso >= 77.2 && peso <= 83.9) {
+                alert('Você é Peso-Médio');
+            }
+            if (peso >= 84 && peso <= 92.9) {
+                alert('Você é Peso Meio-Pesado');
+            } 
+            if (peso >= 93) {
+                alert('Você é Peso Pesado')
+            }
+            console.log('No valor ' + count + ' foi informado o peso ' + peso + 'Kg');
+        }
+    </script>
+</body>
+</html>
